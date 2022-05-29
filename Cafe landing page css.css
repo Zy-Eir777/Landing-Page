@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #4c3f3e;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+.jamba{
+    background-size: cover ;
+    min-height: 100vh;
+    position: relative;
+}
+
+
+
+
+
+.color-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .3);
+    height: 100%;
+    width: 100%;
+}
+
+.change-color{
+    color: #fffcf5;
+    font-size: 4rem;
+}
+
+
+
+
+.cafe-pic{
+    width: 100%;
+  
+}
+
+
+
+.container{
+    max-width: unset;
+}
+
+
+.card-custom{
+    color: #231e1e;
+    background-color: #d2c5bc;
+}
+
+.spacy-boi{
+    background-color: #d2c5bc;
+}
+
+
+.custom-background{
+    background: #4c3f3e;
+    color: #fffcf5;
+}
+
+.faizon{
+    background: #4c3f3e;
+    color: #fffcf5;
+}
+
+
+
+
+.that-all-folks{
+    background-color: #d2c5bc;
+}
+
+
+
+
+
+
+@keyframes animIntro {
+  from {
+          /* Add starting values for animation */
+          transform: translateY(0px);
+          opacity: 0;
+  } 
+  to  {
+          /* Add Ending values for animation */
+          transform: translateY(0);
+          opacity: 1;
+ } 
+}
+
+
+@keyframes animLeft{
+  from {
+    /* Add starting values for animation */
+    transform: translateX(-50px);
+    opacity: 0;
+} 
+to  {
+    /* Add Ending values for animation */
+    transform: translateX(0);
+    opacity: 1;
+  } 
+}
+
+
+
+
+@keyframes animRight{
+  from {
+    /* Add starting values for animation */
+    transform: translateX(50px);
+    opacity: 0;
+} 
+to  {
+    /* Add Ending values for animation */
+    transform: translateX(0);
+    opacity: 1;
+  } 
+}
+
+
+
+@keyframes animDown {
+    from {
+            /* Add starting values for animation */
+            transform: translateY(-100px);
+            opacity: 0;
+    } 
+    to  {
+            /* Add Ending values for animation */
+            transform: translateY(0);
+            opacity: 1;
+   } 
+  }
+
+
+
+  @keyframes animUp {
+    from {
+            /* Add starting values for animation */
+            transform: translateY(50px);
+            opacity: 0;
+    } 
+    to  {
+            /* Add Ending values for animation */
+            transform: translateY(0);
+            opacity: 1;
+   } 
+  }
